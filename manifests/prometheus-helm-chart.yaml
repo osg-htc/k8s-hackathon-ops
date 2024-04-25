@@ -26,4 +26,5 @@ spec:
         enabled: false
 
     alertmanager:
-      enabled: false
+      persistence:
+        enabled: false
