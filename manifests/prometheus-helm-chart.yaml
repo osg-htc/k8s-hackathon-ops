@@ -18,13 +18,6 @@ spec:
       chart: prometheus
       sourceRef:
         kind: HelmRepository
-        name: prometheus-helm-repository
+        name: kube-prometheus-stack
       interval: 1m
-  values:
-    server:
-      persistentVolume:
-        enabled: false
-
-    alertmanager:
-      persistence:
-        enabled: false
+  values: {}
