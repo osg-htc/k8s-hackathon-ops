@@ -21,3 +21,8 @@ spec:
         name: prometheus-helm-repository
       interval: 1m
   values:
+    persistentVolume:
+        ## If true, Prometheus server will create/use a Persistent Volume Claim
+        ## If false, use emptyDir
+        ##
+        enabled: false
