@@ -2,4 +2,4 @@
 namespace: usatlas
 resources: 
   - hello-world.yaml
-  - hello-world-ingress.yaml
+  - prometheus-helm-chart.yaml
