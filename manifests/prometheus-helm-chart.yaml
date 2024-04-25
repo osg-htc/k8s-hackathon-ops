@@ -15,9 +15,9 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: prometheus
+      chart: kube-prometheus-stack
       sourceRef:
         kind: HelmRepository
-        name: kube-prometheus-stack
+        name: prometheus-helm-repository
       interval: 1m
   values: {}
