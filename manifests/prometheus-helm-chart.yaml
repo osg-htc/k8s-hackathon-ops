@@ -15,7 +15,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: prometheus-community/prometheus
+      chart: prometheus
       sourceRef:
         kind: HelmRepository
         name: prometheus-helm-repository
